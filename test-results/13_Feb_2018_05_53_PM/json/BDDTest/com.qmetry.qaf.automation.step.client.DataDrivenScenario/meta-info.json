@@ -1,0 +1,32 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "from": "pune",
+          "to": "bangalore"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data/inputs.csv",
+        "description": "end to end",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "test",
+        "referece": "scenarios/test.bdd",
+        "sign": "scenarios.test.bdd.test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518524612879,
+      "duration": 20510,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

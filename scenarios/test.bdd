@@ -1,0 +1,15 @@
+
+
+SCENARIO: test
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"],"dataFile":"resources/data/inputs.csv"}
+	
+	Given user open browser
+	
+	And user click on flighttab
+	And user click on oneway tab
+	And user entering "${from}" as a source 
+	And user entering "${to}" as a destination
+	And user entering "02/03/2018" as a journey date
+	And user click on searchbutton
+	
+END

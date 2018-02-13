@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open browser</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on flighttab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on oneway tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "delhi" as a source</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'delhi' into 'textbox1.flightOrigin.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "bangalore" as a destination</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'bangalore' into 'textbox.flightDestination.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "02/03/2018" as a journey date</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/03/2018' into 'calendar.flightdeparting.flightpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on searchbutton</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Orbitz.scenarios.test.bdd" duration-ms="17080" started-at="2018-02-13T12:24:54Z" finished-at="2018-02-13T12:25:11Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.test.bdd.test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="test" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.test.bdd.test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="test" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.test.bdd.test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="test" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="17080" started-at="2018-02-13T12:24:54Z" finished-at="2018-02-13T12:25:11Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="setupSuit" is-config="true" duration-ms="16" started-at="2018-02-13T17:54:54Z" finished-at="2018-02-13T17:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="setup" is-config="true" duration-ms="16" started-at="2018-02-13T17:54:54Z" finished-at="2018-02-13T17:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="setupTest" is-config="true" duration-ms="0" started-at="2018-02-13T17:54:54Z" finished-at="2018-02-13T17:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-02-13T17:54:54Z" finished-at="2018-02-13T17:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="test" test-instance-name="test" signature="test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="16925" finished-at="2018-02-13T17:55:11Z" started-at="2018-02-13T17:54:54Z" data-provider="scenariodp" description="end to end">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{from=delhi, to=bangalore}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open browser</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on flighttab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on oneway tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "delhi" as a source</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'delhi' into 'textbox1.flightOrigin.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "bangalore" as a destination</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'bangalore' into 'textbox.flightDestination.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "02/03/2018" as a journey date</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/03/2018' into 'calendar.flightdeparting.flightpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on searchbutton</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-13T17:55:11Z" finished-at="2018-02-13T17:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=scenarios.test.bdd.test( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user open browser</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on flighttab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on oneway tab</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "delhi" as a source</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'delhi' into 'textbox1.flightOrigin.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "bangalore" as a destination</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'bangalore' into 'textbox.flightDestination.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user entering "02/03/2018" as a journey date</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/03/2018' into 'calendar.flightdeparting.flightpage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'btn.calender.flightpage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user click on searchbutton</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-13T17:55:11Z" finished-at="2018-02-13T17:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="afterTest" is-config="true" duration-ms="103" started-at="2018-02-13T17:55:11Z" finished-at="2018-02-13T17:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="test" name="afterSuit" is-config="true" duration-ms="7" started-at="2018-02-13T17:55:11Z" finished-at="2018-02-13T17:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- Orbitz.scenarios.test.bdd -->
+</testng-results>

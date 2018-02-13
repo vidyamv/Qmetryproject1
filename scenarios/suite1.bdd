@@ -1,0 +1,15 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	Given user open browser
+	
+	And user click on flighttab
+	And user click on oneway tab
+	And user entering "pune" as a source 
+	And user entering "bangalore" as a destination
+	And user entering "02/03/2018" as a journey date
+	And user click on searchbutton
+	
+END
+

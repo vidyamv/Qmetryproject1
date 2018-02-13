@@ -1,0 +1,1 @@
+homepage.lnk = {\"locator\":\"xpath=//a[@id='primary-header-home']\",\"desc\":\"home page locator\"}

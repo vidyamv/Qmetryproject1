@@ -1,0 +1,83 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518517472408,
+      "duration": 55236,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "resultFileName": "flightBookingSvpfcImXpJ",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518518378756,
+      "duration": 20193,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "resultFileName": "flightBookingYayFHoLjIL",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518518521676,
+      "duration": 41023,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "resultFileName": "flightBookingktuvcmTzkG",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518518986684,
+      "duration": 27679,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "resultFileName": "flightBookingxrxNILnatp",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518519895531,
+      "duration": 33329,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

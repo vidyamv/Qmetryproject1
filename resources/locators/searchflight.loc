@@ -1,0 +1,5 @@
+list.searchflightpage = {\"locator\":\"xpath=//ul[@id='flightModuleList']\",\"desc\":\"list of searched flights\"}
+list.firstsearchflightpage = {\"locator\":\"css=li[class='flight-module segment offer-listing']\",\"desc\":\"list of first search\"}
+name.firstsearchflightpage = {\"locator\":\"css=div[class='secondary truncate']\",\"desc\":\"name of the flight\"}
+place.firstsearchflightpage = {\"locator\":\"xpath=//div[@data-test-id='airports']\",\"desc\":\"searched flight place\"}
+depart.firstsearchflightpage = {\"locator\":\"xpath=//span[@data-test-id='departure-time']\",\"desc\":\"searched flight depart\"}

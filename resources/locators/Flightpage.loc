@@ -1,0 +1,11 @@
+menu.flight.flightpage = {\"locator\":\"xpath=//a[@id='primary-header-flight']\",\"desc\":\"filght page menu\"}
+calendar.flightdeparting.flightpage = {\"locator\":\"xpath=//input[@id='flight-departing']\",\"desc\":\"flight departing date\"}
+calendar.flightReturninging.flightpage = {\"locator\":\"xpath=//input[@id='flight-returning']\",\"desc\":\"flight returning date\"}
+tab.flight.flightpage = {\"locator\":\"xpath=//label[@id='flight-type-one-way-label']\",\"desc\":\"flight tab\"}
+button.searchbutton.flightpage = {\"locator\":\"xpath=//button[@id='search-button']\",\"desc\":\"flight searchbutton\"}
+textbox.flightDestination.flightpage = {\"locator\":\"xpath=//input[@id='flight-destination']\",\"desc\":\"flight destination point\"}
+textbox1.flightOrigin.flightpage = {\"locator\":\"xpath=//input[@id='flight-origin']\",\"desc\":\"filght origin point\"}
+list.flightoptions.flightpage = {\"locator\":\"xpath=(//div[@class='multiLineDisplay'])[1]\",\"desc\":\"flight list\"}
+list.des.flightoptions = {\"locator\":\"xpath=(//div[@class='multiLineDisplay'])[1]\",\"desc\":\"dest flghtlist\"}
+flight.icon = {\"locator\":\"xpath=//a[@id='tab-flight-tab']\",\"desc\":\"icon of flight\"}
+btn.calender.flightpage = {\"locator\":\"xpath=//button[@class='datepicker-close-btn close btn-text']\",\"desc\":\"close button in calender\"}

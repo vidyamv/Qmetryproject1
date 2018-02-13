@@ -1,0 +1,2 @@
+17:26:33 Invoking Teststep: click on {loc} with arguments: [tabFlightFlightpage]
+17:28:00 Invoking Teststep: sendKeys {text} into {loc} with arguments: [null, textbox1FlightOriginFlightpage]

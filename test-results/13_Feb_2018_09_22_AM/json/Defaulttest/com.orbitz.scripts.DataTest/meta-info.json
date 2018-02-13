@@ -1,0 +1,28 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "from\tto": "pune\tbangalore"
+        }
+      ],
+      "metaData": {
+        "dataFile": "./resources/data/inputs.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "gettingInputs",
+        "sheetName": "",
+        "sign": "DataTest.gettingInputs(java.util.Map)[pri:0, instance:com.orbitz.scripts.DataTest@3439f68d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1518521214834,
+      "duration": 23534,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
