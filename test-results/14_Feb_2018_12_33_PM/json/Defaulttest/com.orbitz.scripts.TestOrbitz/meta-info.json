@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "flightBooking",
+        "sign": "TestOrbitz.flightBooking()[pri:0, instance:com.orbitz.scripts.TestOrbitz@7a6d7e92]"
+      },
+      "dependsOn": [],
+      "startTime": 1518611654853,
+      "duration": 31427,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

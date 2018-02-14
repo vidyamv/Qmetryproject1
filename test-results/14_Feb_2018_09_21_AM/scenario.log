@@ -1,0 +1,33 @@
+09:21:56 scenario.file.loc[Ljava.lang.String;@1ad282e0
+09:21:56 loading BDD file: scenarios/test.bdd
+09:21:56 total test found: 1
+09:21:56 
+
+Executing scenario: test - end to end
+09:21:56 Test Data{from=delhi, to=bangalore}
+09:21:56 pkg: com.qmetry.qaf.automation.step
+09:21:56 pkg: com.orbitz
+09:21:57 Found duplicate step to load [] with [lower] prority then []
+09:21:57 Invoking Teststep: Given user open browser
+09:22:27 Completed Teststep: Given user open browser
+09:22:27 Invoking Teststep: And user click on flighttab
+09:22:27 Completed Teststep: And user click on flighttab
+09:22:27 Invoking Teststep: And user click on oneway tab
+09:22:28 Completed Teststep: And user click on oneway tab
+09:22:28 Invoking Teststep: And user entering "${from}" as a source with arguments: [${from}]
+09:22:28 Invoking Teststep: sendKeys {text} into {loc} with arguments: [delhi, textbox1.flightOrigin.flightpage]
+09:22:28 Completed Teststep: sendKeys {text} into {loc} with arguments: [delhi, textbox1.flightOrigin.flightpage]
+09:22:28 Completed Teststep: And user entering "delhi" as a source with arguments: [${from}]
+09:22:28 Invoking Teststep: And user entering "${to}" as a destination with arguments: [${to}]
+09:22:28 Invoking Teststep: sendKeys {text} into {loc} with arguments: [bangalore, textbox.flightDestination.flightpage]
+09:22:28 Completed Teststep: sendKeys {text} into {loc} with arguments: [bangalore, textbox.flightDestination.flightpage]
+09:22:28 Completed Teststep: And user entering "bangalore" as a destination with arguments: [${to}]
+09:22:28 Invoking Teststep: And user entering "02/03/2018" as a journey date with arguments: [02/03/2018]
+09:22:29 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/03/2018, calendar.flightdeparting.flightpage]
+09:22:29 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/03/2018, calendar.flightdeparting.flightpage]
+09:22:29 Invoking Teststep: click on {loc} with arguments: [btn.calender.flightpage]
+09:22:29 Completed Teststep: click on {loc} with arguments: [btn.calender.flightpage]
+09:22:29 Completed Teststep: And user entering "02/03/2018" as a journey date with arguments: [02/03/2018]
+09:22:29 Invoking Teststep: And user click on searchbutton
+09:22:29 Completed Teststep: And user click on searchbutton
+09:22:29 Competed scenario: test with status SUCESS

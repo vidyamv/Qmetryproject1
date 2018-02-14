@@ -1,0 +1,404 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openBrowser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 24983
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1249
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlighttab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@id='tab-flight-tab'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-1",
+          "subLogs": [],
+          "duration": 64
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@id='tab-flight-tab']",
+            "{\"id\":\"0.4009430331533099-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 180
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnOnewayTab",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//label[@id='flight-type-one-way-label'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-2",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //label[@id='flight-type-one-way-label']",
+            "{\"id\":\"0.4009430331533099-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 150
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enteringAsASource",
+      "args": [
+        "[${from}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-origin'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-3",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-origin']",
+            "{\"id\":\"0.4009430331533099-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[delhi, textbox1.flightOrigin.flightpage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='flight-origin'], using=xpath}"
+              ],
+              "result": "id: 0.4009430331533099-3",
+              "subLogs": [],
+              "duration": 16
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@id='flight-origin']",
+                "{\"id\":\"0.4009430331533099-3\",\"value\":[\"delhi\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 127
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enteringAsADestination",
+      "args": [
+        "[${to}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-destination'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-4",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-destination']",
+            "{\"id\":\"0.4009430331533099-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[bangalore, textbox.flightDestination.flightpage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='flight-destination'], using=xpath}"
+              ],
+              "result": "id: 0.4009430331533099-4",
+              "subLogs": [],
+              "duration": 17
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@id='flight-destination']",
+                "{\"id\":\"0.4009430331533099-4\",\"value\":[\"bangalore\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 359
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enteringAsAJourneyDate",
+      "args": [
+        "[02/03/2018]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='flight-departing'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-5",
+          "subLogs": [],
+          "duration": 41
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //input[@id='flight-departing']",
+            "{\"id\":\"0.4009430331533099-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 194
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/03/2018, calendar.flightdeparting.flightpage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//input[@id='flight-departing'], using=xpath}"
+              ],
+              "result": "id: 0.4009430331533099-5",
+              "subLogs": [],
+              "duration": 71
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //input[@id='flight-departing']",
+                "{\"id\":\"0.4009430331533099-5\",\"value\":[\"02/03/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 134
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[btn.calender.flightpage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//button[@class='datepicker-close-btn close btn-text'], using=xpath}"
+              ],
+              "result": "id: 0.4009430331533099-6",
+              "subLogs": [],
+              "duration": 30
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //button[@class='datepicker-close-btn close btn-text']",
+                "{\"id\":\"0.4009430331533099-6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 102
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchbutton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[@id='search-button'], using=xpath}"
+          ],
+          "result": "id: 0.4009430331533099-7",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[@id='search-button']",
+            "{\"id\":\"0.4009430331533099-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 260
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user open browser",
+      "type": "TestStepPass",
+      "duration": 30327,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user click on flighttab",
+      "type": "TestStepPass",
+      "duration": 269,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user click on oneway tab",
+      "type": "TestStepPass",
+      "duration": 187,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user entering \"delhi\" as a source",
+      "type": "TestStepPass",
+      "duration": 276,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'delhi' into 'textbox1.flightOrigin.flightpage'",
+          "type": "TestStepPass",
+          "duration": 145,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user entering \"bangalore\" as a destination",
+      "type": "TestStepPass",
+      "duration": 508,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'bangalore' into 'textbox.flightDestination.flightpage'",
+          "type": "TestStepPass",
+          "duration": 377,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user entering \"02/03/2018\" as a journey date",
+      "type": "TestStepPass",
+      "duration": 581,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '02/03/2018' into 'calendar.flightdeparting.flightpage'",
+          "type": "TestStepPass",
+          "duration": 207,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'btn.calender.flightpage'",
+          "type": "TestStepPass",
+          "duration": 134,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user click on searchbutton",
+      "type": "TestStepPass",
+      "duration": 296,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

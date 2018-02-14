@@ -32,6 +32,7 @@ public class FlightTestPage1 extends WebDriverBaseTestPage<WebDriverTestPage> {
 	private QAFWebElement flightIcon;
 	@FindBy(locator = "btn.calender.flightpage")
 	private QAFWebElement btnCalenderFlightpage;
+	
 	public void lunchPage() {
 		driver.get("/");
 		driver.manage().window().maximize();
